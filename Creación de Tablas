@@ -1,4 +1,6 @@
--- ESe debe contar con el SCH 'cinemapp' creada. 
+-- Primero debemos crear la base de datos correspondiente
+CREATE DATABASE cinemapp;
+-- Luego debemos continuar con la creación de las tablas.
 USE cinemapp;
 -- Will Create the 'tipo_usuarios' table
 CREATE TABLE tipo_usuarios (
