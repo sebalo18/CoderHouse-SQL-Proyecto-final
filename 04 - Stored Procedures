@@ -1,5 +1,5 @@
 
---El primer SP es para poder crear un registro en la tabla 'listas' incluyendo el nombre de la misma asì como la descripcion y el usuario creante.
+-- El primer SP es para poder crear un registro en la tabla 'listas' incluyendo el nombre de la misma asì como la descripcion y el usuario creante.
 -- Para que el procedimiento funcione correctamente primero se debera actualizar la tabla con la sentencia:
 ALTER TABLE listas
 MODIFY id_lista INT AUTO_INCREMENT;
