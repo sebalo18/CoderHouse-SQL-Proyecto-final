@@ -207,35 +207,7 @@ VALUES (14, 'Shrek', 'Un ogro embarca en una aventura para rescatar a una prince
 INSERT INTO peliculas(id_pelicula, nombre, descripcion, genero, membresia_req, elenco_reconocido, direccion, duracion, calificacion, reproducciones, clasificacion_edades, productora)
 VALUES (15, 'Guerra de Novias', 'Dos amigas compiten por la boda de sus sueños.', 2,1,12, null, 1.50, 7, 933, '+13', 9);
 -- Insertará data en la tabla 'Series' 
--- tengo que borrar las columnas direccion y cantidad capitulos
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
-INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
-VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, 5, 9, 1203, '+15',null);
--- Se añadira data a la tabla ´series'
--- PRIMERO DEBERÁ EJECUTARSE EL ALTER TABLE PARA ELIMINAR UNA COLUMNA QUE SE DECIDIÓ ELIMINAR
+-- Primero se borrará la columna cantidad_capitulos
 ALTER TABLE series DROP COLUMN cantidad_capitulos;
 INSERT INTO series (id_serie, nombre, descripcion, genero, membresia_req, elenco_reconocido, direccion, cantidad_temporadas, calificacion, reproducciones, clasificacion_edades, productora)
 VALUES (1, 'Breaking Bad', 'Profesor se convierte en narcotraficante', 4, 2, null, null, 5, 9, 1203, '+15',null);
